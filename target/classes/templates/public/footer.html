@@ -1,0 +1,8 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<footer th:fragment="footer1"> 
+   <p >All Rights Reserved</p>
+</footer>
+<footer th:fragment="footer2(start,now)"> 
+   <p th:text="|${start} - ${now} All Rights Reserved|"></p>
+</footer>
+</html>

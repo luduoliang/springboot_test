@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>error</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<div style="width:500px;border:1px solid lightgray;margin:200px auto;padding:80px">
+		<p th:text="|系统 出现了异常，异常原因是：${exception}|" ></p>
+		<p th:text="|出现异常的地址是：${url}|" ></p>
+    </div>
+</body>
+</html>

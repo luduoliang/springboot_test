@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "server.context-path",
+    "type": "java.lang.String",
+    "description": "A description for 'server.context-path'"
+  },
+  {
+    "name": "spring.thymeleaf.content-type",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.thymeleaf.content-type'"
+  },
+  {
+    "name": "spring.thymeleaf.content-type",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.thymeleaf.content-type'"
+  }
+]}
